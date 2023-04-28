@@ -1,2 +1,4 @@
 const moduleUser=require('./module_exports.js');
-console.log(moduleUser);
+
+const str=moduleUser.zeroToTime(new Date());
+console.log(str);
