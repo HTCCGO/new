@@ -1,0 +1,13 @@
+-- select password from new_1.users
+-- 打开所有的数据
+-- select * from new_1.users where status=0 and id<3
+-- select * from new_1.users where status=0 or username='zs'
+-- select * from new_1.users order by status;
+-- 对数据表进行升序排序
+-- select * from new_1.users order by id desc;
+-- 对数据表进行降序排序
+-- select * from new_1.users order by status desc, username asc;
+-- 先对status进行降序排序，在对username进行升序排序
+-- select count(*) from new_1.users where status=0;
+-- count 来统计数据的总条数
+ select count(*) as '总用户个数' from new_1.users where status=0;
